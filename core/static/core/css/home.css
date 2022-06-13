@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Titillium+Web:wght@200&display=swap");
+
+* {
+  width: 100%;
+  height: auto;
+/*   font-family: "Genos";
+ */  font-weight: normal;
+}
+
+/* body {
+  background: #3c3b3f;
+  background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+  overflow-x:hidden;
+} */
+
+/* Skills section */
+/* .skills-section {
+  width: 100%; 
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(50%);
+}
+
+h1.text-skills {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 30rem;
+  filter: opacity(0.2);
+  text-align: center;
+}
+
+.skills-section img {
+  width: 40%;
+  margin: 0 auto;
+  background: transparent;
+  animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
+  -webkit-animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
+  -o-animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
+} */
+
+/* @keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+/* End of Skills Section */
+
+/* Mobile devices Styling */
+/* @media screen and (max-width: 1300px) {
+  .skills-section {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+   h1.text-skills {
+    font-size: 16rem;
+    opacity: 0.9;
+  }
+}  */
+
+/* @media screen and (max-width: 768px){ 
+   h1.text-skills {
+    font-size: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills-section img {
+    width: 60%;
+  }
+  
+   h1.text-skills {
+    font-size: 8rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+   h1.text-skills {
+    font-size: 5rem;
+  }
+} */
+
+
+.hidden {
+    display: none;
+  }
+  
+  .html, .css, .sass, .js, .git, .bootstrap {
+    transform-origin: center;
+    opacity: .8;
+  }
+  
+  .html {
+    animation: html 1s cubic-bezier(.89,.11,.14,.94); 
+  }
+  
+  .css {
+    animation: css 1s cubic-bezier(.89,.11,.14,.94); 
+  }
+  
+  .sass {
+    animation: sass 1s cubic-bezier(.89,.11,.14,.94); 
+  }
+  
+  .git {
+    animation: git 1s cubic-bezier(.89,.11,.14,.94); 
+  }
+  .bootstrap {
+    animation: bootstrap 1s cubic-bezier(.89,.11,.14,.94); 
+  }
+  
+  .js {
+    animation: js 1s cubic-bezier(.89,.11,.14,.94); 
+  }
+  
+  @keyframes html {
+    0% {
+      opacity: 0;
+      transform: translate(426px, 266px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(426px, 266px) scale(2);
+    }
+    100% {
+      opacity: .8;
+      transform: translate(350px, 230px);
+    }
+  } 
+  
+  @keyframes css {
+    0% {
+      opacity: 0;
+      transform: translate(419px, 266px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(419px, 266px) scale(2);
+    }
+    100% {
+      opacity: .8;
+      transform: translate(490px, 260px);
+    }
+  }
+  
+  @keyframes sass {
+    0% {
+      opacity: 0;
+      transform: translate(419px, 266px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(419px, 266px) scale(2);
+    }
+    100% {
+      opacity: .8;
+      transform: translate(365px, 300px);
+    }
+  } 
+  
+  @keyframes git {
+    0% {
+      opacity: 0;
+      transform: translate(419px, 266px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(419px, 266px) scale(2);
+    }
+    100% {
+      opacity: .8;
+      transform: translate(470px, 310px);
+    }
+  }
+  
+  @keyframes bootstrap {
+    0% {
+      opacity: 0;
+      transform: translate(419px, 266px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(419px, 266px) scale(2);
+    }
+    100% {
+      opacity: .8;
+      transform: translate(450px, 220px);
+    }
+  }
+  
+  @keyframes js {
+    0% {
+      opacity: 0;
+      transform: translate(419px, 266px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(419px, 266px) scale(2);
+    }
+    100% {
+      opacity: .8;
+      transform: translate(419px, 266px);
+    }
+  }

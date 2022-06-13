@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+h1,
+h3 {
+  font-family: "Satisfy", cursive;
+}
+html,
+body {
+  height: 100%;
+}
+.container-fluid {
+  min-height: 100%;
+}

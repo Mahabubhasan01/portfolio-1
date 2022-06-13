@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'core/css/bootstrap.css'%}" />
+    <link <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    {% block corecss %}
+    <link rel="stylesheet" href="{%static 'core/css/core.css'%}" />
+    {% endblock corecss %}
+  </head>
+  <body>
+    <div class="container-fluid bg-dark">
+      <div class="row d-flex">
+        <div class="col-sm-2 col-md-2">
+        {% include 'core/sidebar.html' %}
+        </div>
+        <div class="col-sm-10 col-md-10">
+            {% block content %}{% endblock content %}
+        </div>
+      </div>
+    </div>
+
+    {% comment %} cdn link {% endcomment %}
+    <script src="{%static 'core/js/bootstrap.js'%}"></script>
+    <script src="{%static 'core/js/jquery.js'%}"></script>
+    <script src="{%static 'core/js/popper.js'%}"></script>
+    <script src="{%static 'js/skills.js'%}"></script>
+    <script src="{%static 'js/mskills.js'%}"></script>
+    <script src="{%static 'core/js/home.js'%}"></script>
+  </body>
+</html>
